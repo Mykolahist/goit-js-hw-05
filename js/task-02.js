@@ -16,3 +16,11 @@ child.name = 'Jason';
 child.age = 27;
 
 // Пиши код выше этой строки
+console.log(parent.isPrototypeOf(child));
+console.log(parent.hasOwnProperty('surname'));
+console.log(parent.hasOwnProperty('heritage'));
+console.log(ancestor.isPrototypeOf(parent));
+console.log(child.hasOwnProperty('surname'));
+console.log(child.hasOwnProperty('heritage'));
+console.log(ancestor.hasOwnProperty('surname'));
+console.log(ancestor.hasOwnProperty('heritage'));

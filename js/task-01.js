@@ -12,4 +12,5 @@ const child = Object.create(parent);
 child.name = 'Jason';
 child.age = 27;
 
-console.log(child);
+console.log(parent.hasOwnProperty('surname'));
+console.log(parent.hasOwnProperty('heritage'));
